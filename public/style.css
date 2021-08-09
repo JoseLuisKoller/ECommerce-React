@@ -1,0 +1,17 @@
+* {
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
+}
+nav {
+  display: inline;
+}
+
+#brand {
+  height: 60px;
+  width: 54px;
+}
+
+#linkdivs {
+  margin: auto;
+  text-align: center;
+}
