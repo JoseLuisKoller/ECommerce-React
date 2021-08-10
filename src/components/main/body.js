@@ -1,7 +1,7 @@
 import React from "react";
-import Shelf from "./ItemListContainer";
 import { Container } from "react-bootstrap";
 import Filters from "./Filter";
+import ItemListContainer from "./products/ItemListContainer";
 function Main() {
   return (
     <main>
@@ -17,7 +17,7 @@ function Main() {
           <Filters />
         </Container>
         <Container className="col">
-          <Shelf />
+          <ItemListContainer />
         </Container>
       </Container>
     </main>
